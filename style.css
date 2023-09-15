@@ -1,0 +1,83 @@
+body{
+  background-color: hsl(30, 38%, 92%);
+}
+.whole-thing{
+    margin-top: 150px;
+    margin-left: 400px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+.right-side,.left-side{
+  height: 450px;
+  width: 300px;
+}
+.right-side{
+  background-color: white;
+  margin-right: 0px;
+  border-radius: 10px;
+}
+.left-side{
+  background-color: white;
+  margin-left: 0px;
+  border-radius: 10px;
+}
+.pic{
+  height: 450px;
+  border-radius: 10px;
+}
+.perfume-text{
+  margin-left: 25px;
+  margin-top: 25px;
+  color: grey;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+.brand-name{
+  margin-left: 25px;
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: fraunces;
+}
+.some-text{
+  margin-left: 25px;
+  margin-top: 25px;
+  line-height: 22px;
+  font-size: 14px;
+  color: grey;
+  font-family: Montserrat;
+}
+.the-button{
+  background-color: hsl(158, 36%, 37%);
+  margin-left: 25px;
+  margin-top: 20px;
+  width: 240px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0px;
+  color: white;
+}
+.price{
+  margin-left: 25px;
+  margin-top: 25px;
+  color: grey;
+  font-weight: bold;
+  font-size: 15px;
+}
+.cart-icon{
+  margin-right: 12px;
+  margin-top: 8px;
+}
+.add-to-cart-button{
+  display: inline-block;
+}
+.main-price{
+  font-size: 30px;
+  color: hsl(158, 36%, 37%);
+  font-weight: bold;
+  margin-right: 20px;
+  font-family: fraunces;
+}
+.text-part{
+  font-weight: bold;
+}
